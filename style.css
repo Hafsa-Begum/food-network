@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin-left: 50px;
+    
 }
 h1{
     font-size: 30px;
@@ -10,6 +11,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width:50%;
@@ -27,4 +29,36 @@ h1{
     color: white;
     padding: 10px;
     border-radius: 20px;
+}
+.about-me-bg{
+    background-image: url(images/7.png);
+}
+.my-recipes{
+    text-align: center;
+    margin: 0 auto;
+    width:60%
+}
+.one-third-width{
+    width: 33.33%;
+    height: 450px;
+    padding: 50px;
+    box-shadow: 20px 20px 40px rgba(206, 197, 197, 0.856);
+    border-radius: 20px;
+}
+.one-third-width img{
+    display:table;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    padding-top:50px
+    
+}
+footer p{
+    color: white;
+}
+.network{
+    color: rgb(43, 33, 33);
 }
