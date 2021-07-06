@@ -1,11 +1,74 @@
 body{
     font-family: 'Poppins', sans-serif;  
+    margin: 0;
 }
 h1{
     font-size: 30px;
 }
 .orange-color{
     color: orange;
+}
+
+/* Navbar design*/
+
+.navigation-bar{
+    margin: 0;
+}
+.navbar{
+    background-color: hsl(16, 80%, 47%);
+    margin: 0;
+}
+.nav-logo{
+    width: 20%;
+}
+.nav-logo img{
+width: 18%;
+height: 60px;
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom:0;
+}
+.navbar-menu{
+    width: 60%;
+    
+    padding-top: 80px;
+}
+.navbar-menu a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.navbar-menu a:hover{
+    color: white;
+}
+
+/* navbar-icon design */
+
+.fa{
+    padding: 5px;
+    font-size: 30px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.fa-facebook{
+    background: blue;
+    color: white;
+}
+.fa-youtube{
+    background: red;
+    color: white;
+}
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
+.navbar-icon{
+    padding-top:20px;
+    width: 20%;
 }
 .flexible-container{
     display: flex;
