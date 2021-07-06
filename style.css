@@ -9,23 +9,29 @@ h1{
     color: orange;
 }
 
-/* Navbar design*/
+/* Navbar design
 
 .navigation-bar{
     margin: 0;
 }
+*/
 .navbar{
     background-color: hsl(16, 80%, 47%);
     margin: 0;
+    display: flex;
 }
 .nav-logo{
     width: 20%;
+    
+}
+.nav-logo h3{
+    padding-left: 10px;
 }
 .nav-logo img{
 width: 20%;
 height: 60px;
-margin-left: 20px;
-margin-top:10px;
+margin-left: 40px;
+margin-top:15px;
 padding: 10px;
 border: 1px solid black;
 border-radius: 50%;
@@ -39,17 +45,21 @@ border-radius: 50%;
     text-decoration: none;
     color: black;
     margin-right: 50px;
+    font-size: 20px;
 }
 .navbar-menu a:hover{
     color: white;
 }
 
-/* navbar-icon design */
-
+/* navbar-icon design starts */
+.navbar-icon p{
+    padding-top: 10px;
+    font-size: 20px;
+}
 .fa{
-    padding: 5px;
-    font-size: 30px;
-    width: 12%;
+    padding: 10px;
+    font-size: 20px;
+    width: 8%;
     text-align: center;
     text-decoration: none;
     margin-top: 5px;
@@ -76,6 +86,10 @@ border-radius: 50%;
     padding-top:20px;
     width: 20%;
 }
+/* navbar icon ends
+navbar design ends */
+
+
 .flexible-container{
     display: flex;
     margin-bottom: 50px;
